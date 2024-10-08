@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+        <body>
+            <div class="wrapper">
+                <div calss="container">
+                    <h1>Calculator</h1>
+                    <div class="row">
+                           <input type="text" name="result" class="result" id="result" value="" placeholder="Result" Readonly />
+                           <input typr="button" value="+" onclick="setScreenValue('+')"/>
+                           <input typr="button" value="1" onclick="setScreenValue('1')"/>
+                           <input typr="button" value="2" onclick="setScreenValue('2')"/>
+                           <input typr="button" value="3" onclick="setScreenValue('3')"/>
+                           <input typr="button" value="-" onclick="setScreenValue('-')"/>      
+            </div>     
+            <div class="row">
+                <input typr="button" value="4" onclick="setScreenValue('4')"/>
+                <input typr="button" value="5" onclick="setScreenValue('5')"/>
+                <input typr="button" value="6" onclick="setScreenValue('6')"/>
+                <input typr="button" value="*" onclick="setScreenValue('*')"/>
+            </div>
+            <div class="row">
+                <input typr="button" value="7" onclick="setScreenValue('7')"/>
+                <input typr="button" value="8" onclick="setScreenValue('8')"/>
+                <input typr="button" value="9" onclick="setScreenValue('9')"/>
+                <input typr="button" value="/" onclick="setScreenValue('/')"/>
+            </div>
+            <input typr="button" value="%" onclick="setScreenValue('%')"/>
+            <input typr="button" value="0" onclick="setScreenValue('0')"/>
+            <input typr="button" value="." class="dot" onclick="setScreenValue('.')"/>
+            <input typr="button" value="=" onclick="setScreenValue()"/>
+            </div>
+            <div class="row">
+             <input typr="button" value="CLEAR" onclick="clearScreen()" id="clear" class="clear-buttton"/>
+            </div>
+            </div>
+        </div>
+
+        <script src=""script.js>
+        </script>
+    </body>
+    </html>
